@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { LiaPhoneVolumeSolid } from 'react-icons/lia';
+import { MdOutlineEmail } from 'react-icons/md';
+import { PiMapPinBold } from 'react-icons/pi';
 import { Commet } from 'react-loading-indicators';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -133,6 +136,23 @@ function Contact() {
               allowFullScreen
               onLoad={() => setIframeLoading(false)}
             ></iframe>
+          </div>
+        </div>
+        <div class="flex flex-wrap justify-between gap-4 mt-20">
+          <div class="flex items-center gap-2">
+            <MdOutlineEmail className="text-3xl text-red-500"/>
+            <a href="mailto:sleepnest@email.com" class="text-lg font-semibold hover:cursor-pointer hover:text-red-600">Email:sleepnest@gmail.com</a>
+          </div>
+          <div class="flex gap-2">
+            <div class="flex flex-wrap gap-3">
+              <LiaPhoneVolumeSolid className="text-3xl text-red-500"/>
+              <a href="tel:+998940337212" class="text-lg font-semibold hover:cursor-pointer hover:text-red-600">Tel:+998940337212</a>
+              <a href="tel:+998917777368" class="text-lg font-semibold hover:cursor-pointer hover:text-red-600">+998917777368</a>
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <PiMapPinBold className="text-3xl text-red-500"/>
+            <a href="https://www.google.com/maps/place/39%C2%B044'50.8%22N+64%C2%B027'35.9%22E/@39.7474485,64.4573973,17z/data=!3m1!4b1!4m4!3m3!8m2!3d39.7474444!4d64.4599722?entry=ttu&amp;g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" class="text-lg font-semibold hover:cursor-pointer hover:text-red-600">Bukhara, st. Alpomish 80</a>
           </div>
         </div>
       </div>
