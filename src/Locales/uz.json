@@ -1,0 +1,152 @@
+{
+  "header": {
+    "home": "Bosh sahifa",
+    "collection": "Kolleksiya",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa"
+  },
+  "home": {
+    "top": "Ekologik",
+    "title": "Toza uyqu",
+    "description": "Mahsulotlar"
+  },
+  "about": {
+    "title": "Ekologik Toza Uyqu Mahsulotlari",
+    "text1": "Matolarimiz va ekologik sumkalar ishlab chiqaruvchi korxonamiz uzoq yillardan beri paxta matolarini global bozorda yetkazib berib kelmoqda.",
+    "text2": "Korxonamiz o‘z faoliyatini 17 yil avval boshlagan va shu vaqt ichida mijozlarimiz ishonchini qozonib kelmoqda.",
+    "text4": "Kompaniyamizning bosh maqsadi — sifatli, bardoshli va ekologik xavfsiz mahsulotlarni yaratishdir.",
+    "text5": "Ishlab chiqarish jarayonlari butunlay ekologik standartlarga mos bo‘lib, atrof-muhitga zarar yetkazmaslikka qaratilgan.",
+    "text6": "Zamonaviy texnologiyalardan foydalanib, turli xil paxta mahsulotlarini yuqori darajada ishlab chiqarish imkoniyatiga egamiz.",
+    "text7": "Shuningdek, biz DongJu to‘quv uskunalarining O‘zbekistondagi rasmiy vakili sifatida faoliyat yuritamiz.",
+    "text8": "Har yili fabrikamizda 80 dan ortiq mahsulot turlari ishlab chiqariladi, buning natijasida kompaniya yuqori sifat va barqaror ishlab chiqarishni ta’minlaydi.",
+    "text9": "Korxonamizda zamonaviy texnologiyalar asosida 50 dan ortiq to‘quv dastgohlari faoliyat ko‘rsatmoqda.",
+    "text10": "Bizning ishlab chiqarish jarayonlarimizda faqat sifatli va ekologik xavfsiz mahsulotlar ishlab chiqarishni ta’minlaymiz.",
+    "text11": "Mijozlarimiz talablariga javoban, ekologik xavfsiz va zamonaviy dizaynli sumkalar ishlab chiqarish yo‘lga qo‘yilgan.",
+    "text12": "Kompaniyamiz har doim mijozlariga sifatli mahsulot va yuqori darajadagi xizmat ko‘rsatishdan mamnun."
+  },
+  "service": {
+    "title": {
+      "1": "Bepul yetkazib berish",
+      "2": "Qaytarish kafolati",
+      "3": "24/7 texnik yordam",
+      "4": "Xavfsiz to‘lov"
+    },
+    "text": {
+      "1": "Barcha buyurtmalar uchun bepul yetkazib berish",
+      "2": "30 kun ichida pulni qaytarish",
+      "3": "24/7 texnik yordam xizmati",
+      "4": "Barcha to‘lov usullari qabul qilinadi"
+    }
+  },
+  "quality": {
+    "desc": "Material sifati",
+    "title": "Ekologik toza uyqu mahsulotlari",
+    "text": "ko‘p yillardan buyon butun dunyo bo‘ylab foydalaniladigan paxta matolarini ishlab chiqaruvchi kompaniya bo‘lib kelmoqda",
+    "btn": "Kolleksiya"
+  },
+  "winter": {
+    "titlesup": "Qishki Kollektsiya",
+    "text": "Kategoriyasi:",
+    "left": {
+      "1": "Material:",
+      "2": "Pillowcase:",
+      "3": "To‘shak to‘qimalari:",
+      "4": "Yotoq:",
+      "5": "O‘lchami:",
+      "6": "Ishlab chiqaruvchi:"
+    },
+    "right": {
+      "1": "100% paxta flaneli",
+      "2": "50x70 sm (2 dona)",
+      "3": "260×280 sm (1 dona)",
+      "4": "160x220 sm (2 dona)",
+      "5": "Maxsus o‘lcham",
+      "6": "Ekologik toza uyqu mahsuloti"
+    },
+    "title": {
+      "1": "Kvadratlar",
+      "2": "Ikat",
+      "3": "Doiralar",
+      "4": "Geometriya Ko‘k",
+      "5": "Tropik Barglar",
+      "6": "Bambi",
+      "7": "Bizansiya",
+      "8": "Bizansiya",
+      "9": "Pat Markiz",
+      "10": "Lavanda Gullar"
+    }
+  },
+  "autm": {
+    "titlesup": "Kuz kolleksiyasi",
+    "text": "Kategoriyasi:",
+    "title": {
+      "1": "Safari",
+      "2": "Ko‘p rangli ametist",
+      "3": "Shivali dekoratsiyasi",
+      "4": "Emerald (AB)",
+      "5": "Malaxit qutisi",
+      "6": "Bahor hidi",
+      "7": "Kuzda osilib tushgan barglar",
+      "8": "Ko‘k shamol",
+      "9": "Ko‘k suv",
+      "10": "Plaid"
+    }
+  },
+  "summer": {
+    "titlesup": "Yoz kolleksiyasi",
+    "text": "Kategoriyasi:",
+    "title": {
+      "1": "Vintage uslubi",
+      "2": "Qaynab turgan dandelion",
+      "3": "Fransuz Rivyerasi",
+      "4": "Dolli qo‘y",
+      "5": "Alp o‘simliklari",
+      "6": "Ilhomlantiruvchi",
+      "7": "Yashil lotus",
+      "8": "Tog‘dagi makkajo‘xori",
+      "9": "Sakura shoxchasi",
+      "10": "Zaytun shoxchasi"
+    }
+  },
+  "detal": {
+    "sh": "Mahsulot sharhlari",
+    "shq": "Sharhingizni qoldiring",
+    "reting": "Sizning bahoingiz",
+    "name": "Ism",
+    "email": "Elektron pochta",
+    "rew": "Sharhingiz",
+    "btn": "Sharhni yuborish",
+    "pro": "O‘xshash mahsulotlar"
+  },
+  "footer": {
+    "text": "Ecological Clean Sleep Products — bu dunyo bo‘ylab ishlatiladigan paxta matolarini ishlab chiqaruvchi kompaniya bo‘lib, ko‘p yillardan beri faoliyat yuritadi.",
+    "menu": {
+      "title": "Menyu",
+      "1": "Bosh sahifa",
+      "2": "Kolleksiya",
+      "3": "Biz haqimizda",
+      "4": "Aloqa"
+    },
+    "contact": {
+      "title": "Aloqa",
+      "1": "Buxoro, Alpomish ko‘chasi 80",
+      "2": "Email: sleepnest@gamil.com",
+      "3": "Telegram: sleepnest"
+    },
+    "sub": {
+      "title": "Elektron pochtamizga obuna bo‘ling",
+      "inp": "Elektron pochtamizga obuna bo‘ling",
+      "btn": "Obuna bo‘lish",
+      "text": "Hech bo‘lmaganda bitta ro‘yxatni tanlang.",
+      "bottom": "© 2024 Ecological Clean Sleep Products MCHJ. Barcha huquqlar himoyalangan."
+    }
+  },
+  "all":"Barcha Kolleksiya",
+  "collection":"Kolleksiya",
+  "contact":{
+    "text":"Ismingiz",
+    "number":"Telefon raqamingiz",
+    "habar":"Xabaringiz bo'sa,yozing iltimos",
+    "btn":"Yuborish"
+  }
+}
