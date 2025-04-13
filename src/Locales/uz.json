@@ -148,5 +148,21 @@
     "number":"Telefon raqamingiz",
     "habar":"Xabaringiz bo'sa,yozing iltimos",
     "btn":"Yuborish"
+  },
+  "news": {
+    "subtitle": "Yangiliklar",
+    "subtext": "Ekologik toza uyqu mahsulotlari",
+    "title1": "Mukammal gadjetlarni tanlash yo‘llari",
+    "text-top": "admin tomonidan",
+    "text1": "Go‘zal vodiy tuman bilan to‘lganda va quyosh tepalikka urilganda...",
+    "title2": "Zamonaviy texnologiyalardan foydalanish",
+    "text2": "Texnologiyalar hayotimizni qanday o‘zgartirayotgani haqidagi qiziqarli hikoyalar...",
+    "title3": "Ijodiy g‘oyalarni amalga oshirish yo‘llari",
+    "text3": "Ko‘plab yangi kashfiyotlar jarayonida duch kelinadigan qiyinchiliklar...",
+
+    "per1/1": "Go‘zal vodiy bug‘ bilan to‘lganida, va quyosh daraxtlarimning yaproqlari ustiga porlaganida, ichki ibodatxonaga bir nechta yorug‘lik nurlari kirib kelganda, men o‘zimni baland o‘tlar orasida topaman. Yerga yaqin yotganimda, menga minglab noma’lum o‘simliklar ko‘rinadi: poyalar orasidan hasharotlar shitirlab chiqadi. Va men pashshalarning ta’riflab bo‘lmaydigan shakllari bilan tanishganimda, bizni O‘z suratida yaratgan Qodir Tangrining borligini his qilaman va bizni boqib turuvchi, atrofimizda abadiy baxtda aylanib yuruvchi umumiy muhabbat nafasini sezaman. Keyin, do‘stim, ko‘zlarim qorong‘ilik bilan qoplanib, osmon va yer yuragimga tushganda, bu kuchni suyukli mahbubaning shakli kabi singdirganda, men ko‘pincha sog‘inch bilan o‘ylayman: Eh, shu tuyg‘ularni tasvirlab bera olsam edi, ichimda yashayotgan barcha narsani qog‘ozga tushira olsam, go‘yo ruhim Cheksiz Xudoning oynasi kabi.",
+    "per1/2": "Ey do‘stim — ammo bu mening kuchimdan tashqarida — men bu manzaralarning ulug‘vorligidan cho‘kib tushaman! Butun ruhimni ajoyib sokinlik egalladi, xuddi bahorning shirin tonglari kabi, ular bilan butun qalbim bilan zavqlanaman. Men yolg‘izman va bu joyda bo‘lish zavqini his qilaman, go‘yo u men kabi ruhlar baxti uchun yaratilgan.",
+    "per1/3": "Men juda baxtliman, aziz do‘stim, tinchlikda yashash tuyg‘usiga shu qadar sho‘ng‘ib ketdimki, iste’dodlarimni unutib qo‘ydim. Hozirda biror chizig‘ni ham chiza olmayapman; ammo shunga qaramay, hech qachon o‘zimni hozirgidek buyuk rassom deb his qilmaganman.",
+    "per1/4": "Go‘zal vodiy bug‘ bilan to‘lganida, va quyosh daraxtlarimning yaproqlari ustiga porlaganida, ichki ibodatxonaga bir nechta yorug‘lik nurlari kirib kelganda, men o‘zimni baland o‘tlar orasida topaman. Yerga yaqin yotganimda, menga minglab noma’lum o‘simliklar ko‘rinadi: poyalar orasidan hasharotlar shitirlab chiqadi. Va men pashshalarning ta’riflab bo‘lmaydigan shakllari bilan tanishganimda, bizni O‘z suratida yaratgan Qodir Tangrining borligini his qilaman va bizni boqib turuvchi, atrofimizda abadiy baxtda aylanib yuruvchi umumiy muhabbat nafasini sezaman. Keyin, do‘stim, ko‘zlarim qorong‘ilik bilan qoplanib, osmon va yer yuragimga tushganda, bu kuchni suyukli mahbubaning shakli kabi singdirganda, men ko‘pincha sog‘inch bilan o‘ylayman: Eh, shu tuyg‘ularni tasvirlab bera olsam edi. Ichimda yashayotgan barcha narsa qog‘ozda to‘liq va samimiy aks etgan bo‘lardi." 
   }
 }

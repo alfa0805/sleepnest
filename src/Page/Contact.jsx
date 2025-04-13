@@ -138,16 +138,16 @@ function Contact() {
             ></iframe>
           </div>
         </div>
-        <div class="flex flex-wrap justify-between gap-4 mt-20">
-          <div class="flex items-center gap-2">
+        <div className="flex flex-wrap justify-between gap-4 mt-20">
+          <div className="flex items-center gap-2">
             <MdOutlineEmail className="text-3xl text-red-500"/>
-            <a href="mailto:sleepnest@email.com" class="text-lg font-semibold hover:cursor-pointer hover:text-red-600">Email:sleepnest@gmail.com</a>
+            <a href="mailto:sleepnest@email.com" className="text-lg font-semibold hover:cursor-pointer hover:text-red-600">Email:sleepnest@gmail.com</a>
           </div>
-          <div class="flex gap-2">
-            <div class="flex flex-wrap gap-3">
+          <div className="flex gap-2">
+            <div className="flex flex-wrap gap-3">
               <LiaPhoneVolumeSolid className="text-3xl text-red-500"/>
-              <a href="tel:+998940337212" class="text-lg font-semibold hover:cursor-pointer hover:text-red-600">Tel:+998940337212</a>
-              <a href="tel:+998917777368" class="text-lg font-semibold hover:cursor-pointer hover:text-red-600">+998917777368</a>
+              <a href="tel:+998940337212" className="text-lg font-semibold hover:cursor-pointer hover:text-red-600">Tel:+998940337212</a>
+              <a href="tel:+998917777368" className="text-lg font-semibold hover:cursor-pointer hover:text-red-600">+998917777368</a>
             </div>
           </div>
           <div class="flex items-center gap-2">
