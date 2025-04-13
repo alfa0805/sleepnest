@@ -39,7 +39,7 @@ function Service() {
         <div className="container">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mt-10">
             {services.map((item) => (
-              <div key={item.id} className="flex flex-col lg:flex-row lg:text-center items-center gap-5">
+              <div data-aos="fade-up" key={item.id} className="flex flex-col lg:flex-row lg:text-center items-center gap-5">
                 <div className="text-5xl sm:text-7xl text-red-500 text-primary">{item.icon}</div>
                 <div className="lg:text-left text-center">
                   <div className="text-[16px] sm:text-[18px] font-semibold pb-2">{t(item.title)}</div>

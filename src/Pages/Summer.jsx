@@ -16,10 +16,10 @@ function Summer() {
   return (
     <div className="py-2 md:py-10">
       <div className="container">
-        <h1 className="text-2xl md:text-4xl font-bold text-center mb-5">
+        <h1 data-aos="flip-down" className="text-2xl md:text-4xl font-bold text-center mb-5">
           {t("summer.titlesup")}
         </h1>
-        <p className="text-[12px] md:text-sm text-center pb-10">
+        <p data-aos="flip-down" className="text-[12px] md:text-sm text-center pb-10">
           {t("quality.title")}
         </p>
         <div className="container grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 md:gap-5">
@@ -29,6 +29,7 @@ function Summer() {
             );
             return (
               <div
+                data-aos="fade-up"
                 onClick={() => handleNavigation(item.id)}
                 key={item.id}
                 className="hover:text-red-500 cursor-pointer relative"
@@ -50,7 +51,7 @@ function Summer() {
                       className="w-full h-full object-cover rounded-md transition-transform duration-300 hover:scale-107"
                     />
                   </div>
-                  <h2 className="text-md  md:pt-1">{t(item.title)}</h2>
+                  <h2 data-aos="flip-down" className="text-md  md:pt-1">{t(item.title)}</h2>
                 </div>
               </div>
             );

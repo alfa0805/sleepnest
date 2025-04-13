@@ -77,7 +77,7 @@ function Contact() {
               onSubmit={handleSubmit}
               className="md:w-1/2 flex flex-col gap-5 items-start"
             >
-              <h1 className="text-3xl pl-5 font-medium md:text-4xl md:font-bold">
+              <h1  data-aos="flip-down" className="text-3xl pl-5 font-medium md:text-4xl md:font-bold">
                 {t('footer.contact.title')}
               </h1>
 

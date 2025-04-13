@@ -9,7 +9,7 @@ function QualityCenter() {
     <>
       <div className="pt-30 md:pt-35 lg:pt-7 pb-15">
         <div className="container">
-          <div className="bg-[#7F54B3] hover:shadow-[2px_3px_20px_red] h-130 sm:h-135 md:h-115 lg:h-87 text-white rounded-3xl flex px-15 md:px-9 items-end p-5 pb-15 relative">
+          <div data-aos="fade-up" className="bg-[#7F54B3] hover:shadow-[2px_3px_20px_red] h-130 sm:h-135 md:h-115 lg:h-87 text-white rounded-3xl flex px-15 md:px-9 items-end p-5 pb-15 relative">
             <img
               src={img}
               alt=""

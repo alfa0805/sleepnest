@@ -21,26 +21,26 @@ const Footer = () => {
             </p>
           </div>
           <div className="text-center md:text-left">
-            <h2 className="font-bold mb-3 text-gray-600 uppercase text-sm">
+            <h2  data-aos="flip-down" className="font-bold mb-3 text-gray-600 uppercase text-sm">
               {t("footer.menu.title")}
             </h2>
             <ul className="space-y-2">
-              <li>
+              <li data-aos="flip-down">
                 <NavLink to="/" activclassname="active" className="">
                   {t("footer.menu.1")}
                 </NavLink>
               </li>
-              <li>
+              <li data-aos="flip-down">
                 <NavLink to="/collection" activclassname="active" className="">
                   {t("footer.menu.2")}
                 </NavLink>
               </li>
-              <li>
+              <li data-aos="flip-down">
                 <NavLink to="/about" activclassname="active" className="">
                   {t("footer.menu.3")}
                 </NavLink>
               </li>
-              <li>
+              <li data-aos="flip-down">
                 <NavLink to="/contact" activclassname="active" className="">
                   {t("footer.menu.4")}
                 </NavLink>
@@ -49,22 +49,22 @@ const Footer = () => {
           </div>
 
           <div className="text-center md:text-left">
-            <h2 className="font-bold mb-3 text-gray-600 uppercase text-sm">
+            <h2  data-aos="flip-down" className="font-bold mb-3 text-gray-600 uppercase text-sm">
               {t("footer.contact.title")}
             </h2>
             <address className="not-italic space-y-2">
-              <p className="text-sm">{t("footer.contact.1")}</p>
-              <p className="text-sm">{t("footer.contact.2")}</p>
-              <p className="text-sm">{t("footer.contact.3")}</p>
-              <a href="tel:+998940337212" className="text-sm">
-                +998 94 033 72 12
+              <p data-aos="flip-down" className="text-sm">{t("footer.contact.1")}</p>
+              <p data-aos="flip-down" className="text-sm">{t("footer.contact.2")}</p>
+              <p data-aos="flip-down" className="text-sm">{t("footer.contact.3")}</p>
+              <a data-aos="flip-down" href="tel:+998940337212" className="text-sm">
+                <p data-aos="flip-down">+998 94 033 72 12</p>
               </a>
             </address>
           </div>
 
           {/* Email subscription */}
           <div className="text-center md:text-left">
-            <h2 className="font-bold mb-3 text-gray-600 uppercase">
+            <h2 data-aos="flip-down" className="font-bold mb-3 text-gray-600 uppercase">
               {t("footer.sub.title")}
             </h2>
             <div className="flex justify-between items-center cursor-pointer border-2 border-gray-300 rounded-2xl px-2 py-2">
@@ -77,12 +77,14 @@ const Footer = () => {
                 {t("footer.sub.btn")}
               </button>
             </div>
-            <p className="text-xs mt-2 text-gray-500">{t("footer.sub.text")}</p>
+            <p  data-aos="flip-down" className="text-xs mt-2 text-gray-500">{t("footer.sub.text")}</p>
           </div>
         </div>
       </div>
-      <div className=" bg-[#17233e] text-white py-7">
-        <div className="container">{t("footer.sub.bottom")}</div>
+      <div className=" bg-[#17233e] text-white py-3">
+        <div className="container">
+          <p className="text-xs max-[650px]:text-[8px] max-[450px]:text-[6px]">{t("footer.sub.bottom")}</p>
+        </div>
       </div>
     </footer>
   );
