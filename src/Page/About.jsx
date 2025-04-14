@@ -10,7 +10,6 @@ function About() {
     }));
   return (
     <div>
-      <div className=""></div>
       <div class="container">
         <div class="flex flex-col-reverse lg:flex-row md:items-center gap-10">
           <div class="">
