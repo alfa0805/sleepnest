@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
-import { useTranslation } from 'react-i18next';
-import { LiaPhoneVolumeSolid } from 'react-icons/lia';
-import { MdOutlineEmail } from 'react-icons/md';
-import { PiMapPinBold } from 'react-icons/pi';
-import { Commet } from 'react-loading-indicators';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
+import { LiaPhoneVolumeSolid } from "react-icons/lia";
+import { MdOutlineEmail } from "react-icons/md";
+import { PiMapPinBold } from "react-icons/pi";
+import { Commet } from "react-loading-indicators";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Contact() {
   const { t } = useTranslation();
   const [formData, setFormData] = useState({
-    name: '',
-    phone: '',
-    message: '',
+    name: "",
+    phone: "",
+    message: "",
   });
 
   const [loading, setLoading] = useState(false);
@@ -26,8 +26,8 @@ function Contact() {
     e.preventDefault();
     setLoading(true);
 
-    const BOT_TOKEN = '7519624691:AAGw5kc72DDVM3fE1iv4t_vwfXvJqzo8mQM';
-    const CHAT_ID = '1957552716';
+    const BOT_TOKEN = "7519624691:AAGw5kc72DDVM3fE1iv4t_vwfXvJqzo8mQM";
+    const CHAT_ID = "1957552716";
 
     const message = `📝 *Yangi xabar:*\n👤 *Ism:* ${formData.name}\n📞 *Telefon:* +998${formData.phone}\n💬 *Xabar:* ${formData.message}`;
 
@@ -35,24 +35,24 @@ function Contact() {
       const response = await fetch(
         `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`,
         {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             chat_id: CHAT_ID,
             text: message,
-            parse_mode: 'Markdown',
+            parse_mode: "Markdown",
           }),
         }
       );
 
       if (response.ok) {
-        setFormData({ name: '', phone: '', message: '' });
-        toast.success('✅ Muvaffaqiyatli yuborildi!');
+        setFormData({ name: "", phone: "", message: "" });
+        toast.success("✅ Muvaffaqiyatli yuborildi!");
       } else {
-        toast.error('❌ Yuborishda xatolik yuz berdi!');
+        toast.error("❌ Yuborishda xatolik yuz berdi!");
       }
     } catch (error) {
-      toast.error('🚫 Telegramga ulanib bo‘lmadi!');
+      toast.error("🚫 Telegramga ulanib bo‘lmadi!");
     } finally {
       setLoading(false);
     }
@@ -77,8 +77,11 @@ function Contact() {
               onSubmit={handleSubmit}
               className="md:w-1/2 flex flex-col gap-5 items-start"
             >
-              <h1  data-aos="flip-down" className="text-3xl pl-5 font-medium md:text-4xl md:font-bold">
-                {t('footer.contact.title')}
+              <h1
+                data-aos="flip-down"
+                className="text-3xl pl-5 font-medium md:text-4xl md:font-bold"
+              >
+                {t("footer.contact.title")}
               </h1>
 
               <input
@@ -140,19 +143,39 @@ function Contact() {
         </div>
         <div className="flex flex-wrap justify-between gap-4 mt-20">
           <div className="flex items-center gap-2">
-            <MdOutlineEmail className="text-3xl text-red-500"/>
-            <a href="mailto:sleepnest@email.com" className="text-lg font-semibold hover:cursor-pointer hover:text-red-600">Email:sleepnest@gmail.com</a>
+            <MdOutlineEmail className="text-3xl text-red-500" />
+            <a
+              href="mailto:sleepnest@email.com"
+              className="text-lg font-semibold hover:cursor-pointer hover:text-red-600"
+            >
+              Email:sleepnest@gmail.com
+            </a>
           </div>
           <div className="flex gap-2">
             <div className="flex flex-wrap gap-3">
-              <LiaPhoneVolumeSolid className="text-3xl text-red-500"/>
-              <a href="tel:+998940337212" className="text-lg font-semibold hover:cursor-pointer hover:text-red-600">Tel:+998940337212</a>
-              <a href="tel:+998917777368" className="text-lg font-semibold hover:cursor-pointer hover:text-red-600">+998917777368</a>
+              <LiaPhoneVolumeSolid className="text-3xl text-red-500" />
+              <a
+                href="tel:+998940337212"
+                className="text-lg font-semibold hover:cursor-pointer hover:text-red-600"
+              >
+                Tel:+998940337212
+              </a>
+              <a
+                href="tel:+998917777368"
+                className="text-lg font-semibold hover:cursor-pointer hover:text-red-600"
+              >
+                +998917777368
+              </a>
             </div>
           </div>
           <div class="flex items-center gap-2">
-            <PiMapPinBold className="text-3xl text-red-500"/>
-            <a href="https://www.google.com/maps/place/39%C2%B044'50.8%22N+64%C2%B027'35.9%22E/@39.7474485,64.4573973,17z/data=!3m1!4b1!4m4!3m3!8m2!3d39.7474444!4d64.4599722?entry=ttu&amp;g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" class="text-lg font-semibold hover:cursor-pointer hover:text-red-600">Bukhara, st. Alpomish 80</a>
+            <PiMapPinBold className="text-3xl text-red-500" />
+            <a
+              href="https://www.google.com/maps/place/39%C2%B044'50.8%22N+64%C2%B027'35.9%22E/@39.7474485,64.4573973,17z/data=!3m1!4b1!4m4!3m3!8m2!3d39.7474444!4d64.4599722?entry=ttu&amp;g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
+              class="text-lg font-semibold hover:cursor-pointer hover:text-red-600"
+            >
+              Bukhara, st. Alpomish 80
+            </a>
           </div>
         </div>
       </div>
