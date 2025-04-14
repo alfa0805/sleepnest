@@ -104,7 +104,7 @@ function Contact() {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                placeholder={t("contact.haber")}
+                placeholder={t("contact.habar")}
                 className="w-full text-[12px] md:text-sm outline-none hover:shadow-[2px_2px_3px_#00000019] focus:shadow-[2px_2px_6px_#00000040] h-26 bg-gray-300 rounded-3xl pl-7 p-3"
               ></textarea>
 
