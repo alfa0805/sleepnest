@@ -10,7 +10,9 @@ import "aos/dist/aos.css";
 
 function App() {
   const [loading, setLoading] = useState(true); 
-  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
