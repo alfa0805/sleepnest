@@ -3,13 +3,14 @@ import React, { useEffect, useState } from "react";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import "aos/dist/aos.css";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import { Commet } from "react-loading-indicators";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 function App() {
   const [loading, setLoading] = useState(true); 
+  const pathname = useLocation
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
