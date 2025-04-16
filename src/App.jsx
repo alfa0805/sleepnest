@@ -9,15 +9,15 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function App() {
-  const [loading, setLoading] = useState(true); // 👈 loading holati
+  const [loading, setLoading] = useState(true); 
+  
 
   useEffect(() => {
-    // Simulyatsiya: 2 soniyadan keyin loading tugaydi
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000); // 2000 = 2 sekund
+    }, 3000);
 
-    return () => clearTimeout(timer); // tozalash
+    return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {

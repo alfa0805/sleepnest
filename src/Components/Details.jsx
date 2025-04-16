@@ -240,6 +240,7 @@ function Details() {
             <div>
               <label className="pl-4 text-gray-700 text-sm">{t("detal.name")}</label>
               <input
+                required
                 type="text"
                 name="name"
                 value={formData.name}
@@ -250,6 +251,7 @@ function Details() {
             <div>
               <label className="pl-4 text-gray-700 text-sm">{t("detal.email")}</label>
               <input
+                required
                 type="email"
                 name="email"
                 value={formData.email}
@@ -262,6 +264,7 @@ function Details() {
                 {t("detal.rew")}
               </label>
               <textarea
+                required
                 name="message"
                 value={formData.message}
                 onChange={handleFormChange}
