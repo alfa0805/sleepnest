@@ -25,9 +25,12 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 800, 
-      once: false, 
-      easing: "ease-in",
+      duration: 500,
+      offset:0,
+      once: false,
+      easing: 'ease-in-out',
+      delay: 100,
+      mirror: true, 
     });
   }, []);
   if (loading) {

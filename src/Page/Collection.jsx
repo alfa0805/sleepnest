@@ -52,7 +52,7 @@ function Collection() {
           <button
             onClick={() => setSelected("all")}
             className={`text-center text-lg px-3 py-2 rounded ${
-              selected === "all" ? " font-bold text-[#dfb82d]" : ""
+              selected === "all" ? " font-bold text-[#dfb82d]" : "text-gray-200"
             }`}
           >
             {t("all")}
@@ -60,7 +60,7 @@ function Collection() {
           <button
             onClick={() => setSelected("winter")}
             className={`text-center text-lg px-3 py-2 rounded ${
-              selected === "winter" ? " font-bold text-[#dfb82d]" : ""
+              selected === "winter" ? " font-bold text-[#dfb82d]" : "text-gray-200"
             }`}
           >
             {t("winter.titlesup")}
@@ -68,7 +68,7 @@ function Collection() {
           <button
             onClick={() => setSelected("summer")}
             className={`text-center text-lg px-3 py-2 rounded ${
-              selected === "summer" ? " font-bold text-[#dfb82d]" : ""
+              selected === "summer" ? " font-bold text-[#dfb82d]" : "text-gray-200"
             }`}
           >
             {t("summer.titlesup")}
@@ -76,7 +76,7 @@ function Collection() {
           <button
             onClick={() => setSelected("autumn")}
             className={`text-center text-lg px-3 py-2 rounded ${
-              selected === "autumn" ? " font-bold text-[#dfb82d]" : ""
+              selected === "autumn" ? " font-bold text-[#dfb82d]" : "text-gray-200"
             }`}
           >
              {t("autm.titlesup")}
@@ -93,7 +93,7 @@ function Collection() {
               <div
                 onClick={() => handleNavigation(item.id)}
                 key={item.id}
-                className="hover:text-red-500 cursor-pointer relative"
+                className="group cursor-pointer relative"
               >
                 <button
                   onClick={(e) => {
@@ -111,7 +111,7 @@ function Collection() {
                     className="w-full h-full object-cover rounded-md transition-transform duration-300 hover:scale-107"
                   />
                 </div>
-                <h2 className="text-md pt-1">{t(item.title)}</h2>
+                <h2 className="text-md pt-1 text-gray-200 group-hover:text-[#c5a53b]">{t(item.title)}</h2>
               </div>
             );
           })}

@@ -1,4 +1,3 @@
-import React from "react";
 import summer from "../data/Summer";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -16,10 +15,10 @@ function Summer() {
   return (
     <div className="py-2 md:py-10">
       <div className="container">
-        <h1 data-aos="flip-down" className="text-2xl md:text-4xl font-bold text-center mb-5">
+        <h1 data-aos="flip-down" className="text-2xl text-gray-200 md:text-4xl font-bold text-center mb-5">
           {t("summer.titlesup")}
         </h1>
-        <p data-aos="flip-down" className="text-[12px] md:text-sm text-center pb-10">
+        <p data-aos="flip-down" className="text-[12px] text-gray-200 md:text-sm text-center pb-10">
           {t("quality.title")}
         </p>
         <div className="container grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 md:gap-5">
@@ -32,7 +31,7 @@ function Summer() {
                 data-aos="fade-up"
                 onClick={() => handleNavigation(item.id)}
                 key={item.id}
-                className="hover:text-red-500 cursor-pointer relative"
+                className="group cursor-pointer relative"
               >
                 <button
                   onClick={(e) => {
@@ -51,7 +50,7 @@ function Summer() {
                       className="w-full h-full object-cover rounded-md transition-transform duration-300 hover:scale-107"
                     />
                   </div>
-                  <h2 data-aos="flip-down" className="text-md  md:pt-1">{t(item.title)}</h2>
+                  <h2 data-aos="flip-down" className="text-md text-gray-200 group-hover:text-[#c5a53b] md:pt-1">{t(item.title)}</h2>
                 </div>
               </div>
             );

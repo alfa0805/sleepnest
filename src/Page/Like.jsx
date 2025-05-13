@@ -28,7 +28,7 @@ const Like = () => {
               <div
                 onClick={() => handleNavigation(item.id)}
                 key={item.id}
-                className="hover:text-red-500 cursor-pointer relative"
+                className="group cursor-pointer relative"
               >
                 <button
                   onClick={(e) => {
@@ -47,7 +47,7 @@ const Like = () => {
                       className="w-full h-full object-cover rounded-md transition-transform duration-300 hover:scale-107"
                     />
                   </div>
-                  <h2 className="text-md md:pt-1">{t(item.title)}</h2>
+                  <h2 className="text-md md:pt-1 text-gray-100 group-hover:text-[#c5a53b]">{t(item.title)}</h2>
                 </div>
               </div>
             ))

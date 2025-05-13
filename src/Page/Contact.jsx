@@ -79,7 +79,7 @@ function Contact() {
             >
               <h1
                 data-aos="flip-down"
-                className="text-3xl pl-5 font-medium md:text-4xl md:font-bold"
+                className="text-3xl pl-5 text-[#c5a53b] font-medium md:text-4xl md:font-bold"
               >
                 {t("footer.contact.title")}
               </h1>
@@ -142,37 +142,37 @@ function Contact() {
           </div>
         </div>
         <div className="flex flex-wrap justify-between gap-4 mt-20">
-          <div className="flex items-center gap-2">
-            <MdOutlineEmail className="text-3xl text-red-500" />
+          <div className="flex items-center gap-2 group">
+            <MdOutlineEmail className="text-3xl text-gray-100 group-hover:text-[#c5a53b]" />
             <a
               href="mailto:sleepnest@email.com"
-              className="text-lg font-semibold hover:cursor-pointer hover:text-red-600"
+              className="text-lg font-semibold hover:cursor-pointer text-gray-100 group-hover:text-[#c5a53b]"
             >
               Email:sleepnest@gmail.com
             </a>
           </div>
           <div className="flex gap-2">
-            <div className="flex flex-wrap gap-3">
-              <LiaPhoneVolumeSolid className="text-3xl text-red-500" />
+            <div className="flex flex-wrap gap-3 group">
+              <LiaPhoneVolumeSolid className="text-3xl text-gray-100 group-hover:text-[#c5a53b]" />
               <a
                 href="tel:+998940337212"
-                className="text-lg font-semibold hover:cursor-pointer hover:text-red-600"
+                className="text-lg font-semibold hover:cursor-pointer text-gray-100 group-hover:text-[#c5a53b]"
               >
                 Tel:+998940337212
               </a>
               <a
                 href="tel:+998917777368"
-                className="text-lg font-semibold hover:cursor-pointer hover:text-red-600"
+                className="text-lg font-semibold hover:cursor-pointer text-gray-100 group-hover:text-[#c5a53b]"
               >
                 +998917777368
               </a>
             </div>
           </div>
-          <div class="flex items-center gap-2">
-            <PiMapPinBold className="text-3xl text-red-500" />
+          <div className="flex group items-center gap-2">
+            <PiMapPinBold className="text-3xl text-gray-100 group-hover:text-[#c5a53b]" />
             <a
               href="https://www.google.com/maps/place/39%C2%B044'50.8%22N+64%C2%B027'35.9%22E/@39.7474485,64.4573973,17z/data=!3m1!4b1!4m4!3m3!8m2!3d39.7474444!4d64.4599722?entry=ttu&amp;g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
-              class="text-lg font-semibold hover:cursor-pointer hover:text-red-600"
+              className="text-lg font-semibold hover:cursor-pointer text-gray-100 group-hover:text-[#c5a53b]"
             >
               Bukhara, st. Alpomish 80
             </a>

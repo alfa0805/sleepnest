@@ -49,51 +49,56 @@ function Header() {
   const orderedLangs = getLangOrder();
 
   return (
-    <div className="fixed shadow-xl w-full z-100 bg-white py-3">
+    <div className="fixed shadow-xl w-full z-100 backdrop-blur-lg bg-[#0f592435] py-3">
       <div className="container flex justify-between items-center gap-5">
-        <a href="/" className="">
-          <img src={logo} alt="" className="w-40" />
-        </a>
+        <div className="flex items-center gap-1">
+          <div className="w-17 h-16">
+            <a href="/" className="">
+              <img src={logo} alt="" className="w-full h-full" />
+            </a>
+          </div>
+          <h1 className="text-xl font-semibold text-[#c5a53b]">TranquilSofa</h1>
+        </div>
         <div className="flex items-center gap-3 md:gap-9">
           <nav className="md:flex items-center md:gap-5 lg:gap-10 hidden ">
             <NavLink
               to="/"
               activeclassname="active"
-              className="text-gray-600 lg:text-[19px] md:text-[14px] "
+              className="text-gray-200 lg:text-[19px] md:text-[14px] "
             >
               {t("header.home")}
             </NavLink>
             <NavLink
               to="/collection"
               activeclassname="active"
-              className="text-gray-600 lg:text-[19px] md:text-[14px] "
+              className="text-gray-200 lg:text-[19px] md:text-[14px] "
             >
               {t("header.collection")}
             </NavLink>
             <NavLink
               to="/about"
               activeclassname="active"
-              className="text-gray-600 lg:text-[19px] md:text-[14px] "
+              className="text-gray-200 lg:text-[19px] md:text-[14px] "
             >
               {t("header.about")}
             </NavLink>
             <NavLink
               to="/contact"
               activeclassname="active"
-              className="text-gray-600 lg:text-[19px] md:text-[14px] "
+              className="text-gray-200 lg:text-[19px] md:text-[14px] "
             >
               {t("header.contact")}
             </NavLink>
             <NavLink
               to="/like"
               activeclassname="active"
-              className="text-gray-600 lg:text-[17px]"
+              className="text-gray-200 lg:text-[17px]"
             >
               <div className="relative">
                 <FcLike size={23} />
                 {likedItems.length > 0 && (
                   <motion.span
-                    key={likedItems.length} 
+                    key={likedItems.length}
                     initial={{ scale: 1 }}
                     animate={{ scale: [4, 1] }} // Avval kattalashib, keyin qaytadi
                     transition={{ duration: 0.2, ease: "easeOut" }} // Animatsiya tezligi
@@ -120,7 +125,7 @@ function Header() {
               />
             ))}
           </div>
-          <button onClick={toggleMenu} className="block md:hidden">
+          <button onClick={toggleMenu} className="block md:hidden text-[#c5a53b]">
             {open ? <IoMdClose size={27} /> : <RiMenu2Line size={27} />}
           </button>
         </div>
@@ -133,12 +138,12 @@ function Header() {
           transition={{ duration: 0, ease: "easeInOut" }}
           // className="fixed top-0 left-0 w-64 h-full bg-white shadow-lg z-50"
         >
-          <div className="w-full h-screen bg-white flex flex-col items-center justify-start mt-10 gap-5 z-50">
+          <div className="w-full h-screen backdrop-blur-lg flex flex-col items-center justify-start mt-10 pt-10 gap-5 z-50">
             <NavLink
               onClick={toggleMenu}
               to="/"
               activeclassname="active"
-              className="text-gray-600 lg:text-[17px] text-xl"
+              className="text-gray-200 lg:text-[17px] text-2xl"
             >
               {t("header.home")}
             </NavLink>
@@ -146,7 +151,7 @@ function Header() {
               onClick={toggleMenu}
               to="/collection"
               activeclassname="active"
-              className="text-gray-600 lg:text-[17px] text-xl"
+              className="text-gray-200 lg:text-[17px] text-2xl"
             >
               {t("header.collection")}
             </NavLink>
@@ -154,7 +159,7 @@ function Header() {
               onClick={toggleMenu}
               to="/about"
               activeclassname="active"
-              className="text-gray-600 lg:text-[17px] text-xl"
+              className="text-gray-200 lg:text-[17px] text-2xl"
             >
               {t("header.about")}
             </NavLink>
@@ -162,7 +167,7 @@ function Header() {
               onClick={toggleMenu}
               to="/contact"
               activeclassname="active"
-              className="text-gray-600 lg:text-[17px] text-xl"
+              className="text-gray-200 lg:text-[17px] text-2xl"
             >
               {t("header.contact")}
             </NavLink>
@@ -170,7 +175,7 @@ function Header() {
               onClick={toggleMenu}
               to="/like"
               activeclassname="active"
-              className="text-gray-600 lg:text-[17px]"
+              className="text-gray-200 lg:text-[17px]"
             >
               <div className="relative">
                 <FcLike size={23} />

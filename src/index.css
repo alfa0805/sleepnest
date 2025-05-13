@@ -9,13 +9,13 @@
   overflow-x: hidden;
 } */
 .active {
-  color: #a17f4a;
+  color: #c5a53b;
 }
 .animated-bg {
-  --color-3: #ebd8bc;
-  --color-1: #debe99;
-  --color-2: #eabb75;
-  --color-4: #deba90;
+  --color-3: rgb(2, 54, 14);
+  --color-1: rgb(3, 46, 13);
+  --color-2: rgb(3, 42, 12);
+  --color-4: rgb(2, 37, 10);
 
   animation: backgroundAnimation 6s ease-in-out infinite;
 }
@@ -44,6 +44,9 @@
   font-family: Unbounded;
   transition: all 0.3s ease;
 }
+body{
+  background-color: rgb(2, 37, 10);
+}
 
 @keyframes spin {
   to {
@@ -61,4 +64,10 @@
 
 .animation-delay-400 {
   animation-delay: 0.4s;
+}
+.title{
+  color:blueviolet;
+  color: darkgrey;
+  color:darkgoldenrod;
+  color: rgba(203, 158, 25, 0.675);
 }
