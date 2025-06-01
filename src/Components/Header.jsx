@@ -57,7 +57,7 @@ function Header() {
               <img src={logo} alt="" className="w-full h-full" />
             </a>
           </div>
-          <h1 className="text-xl font-semibold text-[#c5a53b]">TranquilSofa</h1>
+          <h1 className="text-xl font-semibold text-[#c5a53b]">TranquilSofe</h1>
         </div>
         <div className="flex items-center gap-3 md:gap-9">
           <nav className="md:flex items-center md:gap-5 lg:gap-10 hidden ">
